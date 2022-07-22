@@ -55,6 +55,7 @@ func GetProductById(w http.ResponseWriter, r *http.Request) {
 	}
 }
 
+
 func main() {
 
 	r := mux.NewRouter()
